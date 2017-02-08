@@ -10,12 +10,25 @@ body{
 	
 }
 
-#disclaimer{
+.disclaimer{
 	font-size: small;
 	color: #000000;
+
+}
+
+.disclaimer li{
+	
 	list-style-type: none;
-	margin: 0;
-	padding: 0;
+	margin: auto;
+	padding: 10;
 	display:inline;
+	text-align: center;
+	border-right: 2px, solid, black;
+	border-left: 2px solid black; 
+	
+}
+
+.copy{
+	font-size: 10px;
 	
 }
