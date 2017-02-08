@@ -1,0 +1,24 @@
+.navigation ul{
+	display: inline-block;
+	list-style-type: none;
+	text-align: center;
+	width:100%;
+}
+
+ul li {
+	display: inline-block;
+	border-right: 2px black solid;
+	border-left: 2px black solid;
+}
+
+li a {
+    
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.navigation:hover {
+	
+}
