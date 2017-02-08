@@ -1,5 +1,8 @@
+<<<<<<< HEAD
+=======
+/*navigation bar*/
+>>>>>>> 1b86069953f7338f5c3948947b66151ccc44194c
 .navigation ul{
-	display: inline-block;
 	list-style-type: none;
 	text-align: center;
 	width:100%;
@@ -12,13 +15,25 @@ ul li {
 }
 
 li a {
-    
     color: black;
     text-align: center;
-    padding: 14px 16px;
+    padding: 5px 40px;
     text-decoration: none;
 }
+hr {
+	color: pink;
+}
 
+li:hover {
+	background-color:red;
+}
+
+.active{
+	background-color: pink;
+}
+
+
+<<<<<<< HEAD
 .navigation:hover {
 }
 
@@ -45,4 +60,35 @@ li a {
 .copy{
 	font-size: 10px;
 
+=======
+/*main body*/
+.about {
+	padding: 75px;
+	border: 1px solid black;
+}
+
+.recipes{
+	padding: 75px;
+	border: 1px solid black;
+}
+
+.contact {
+	padding: 75px;
+	border: 1px solid black;
+}
+
+.main:hover {
+	opacity:.8px;
+}
+
+
+/*footer*/
+#disclaimer{
+	font-size: small;
+	color: #000000;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	display:inline;
+>>>>>>> 1b86069953f7338f5c3948947b66151ccc44194c
 }
