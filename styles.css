@@ -1,34 +1,48 @@
-body{
-	
+.navigation ul{
+	display: inline-block;
+	list-style-type: none;
+	text-align: center;
+	width:100%;
 }
 
-#navbar a{
-	
+ul li {
+	display: inline-block;
+	border-right: 2px black solid;
+	border-left: 2px black solid;
 }
 
-#navbar li{
-	
+li a {
+    
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
 }
 
-.disclaimer{
-	font-size: small;
+.navigation:hover {
+}
+
+.disclaimer ul{
+	
 	color: #000000;
+	display:inline-block;
+	list-style-type: none;
+	text-align: center;
+	width:100%;
 
 }
 
 .disclaimer li{
 	
-	list-style-type: none;
 	margin: auto;
-	padding: 10;
-	display:inline;
-	text-align: center;
+	padding: 10px 20px;
 	border-right: 2px, solid, black;
 	border-left: 2px solid black; 
+	 
 	
 }
 
 .copy{
 	font-size: 10px;
-	
+
 }
