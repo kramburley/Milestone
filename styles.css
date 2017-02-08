@@ -1,6 +1,4 @@
-<<<<<<< HEAD
 .navigation ul{
-	display: inline-block;
 	list-style-type: none;
 	text-align: center;
 	width:100%;
@@ -13,25 +11,18 @@ ul li {
 }
 
 li a {
-    
     color: black;
     text-align: center;
-    padding: 14px 16px;
+    padding: 20px 20px;
     text-decoration: none;
 }
 
 .navigation:hover {
-=======
-body{
 	
 }
 
-#navbar a{
-	
-}
-
-#navbar li{
-	
+.active{
+	background-color: pink;
 }
 
 #disclaimer{
@@ -41,6 +32,5 @@ body{
 	margin: 0;
 	padding: 0;
 	display:inline;
->>>>>>> 15b02374c321b53fc321cf3b89275f04bb4ea04a
-	
+
 }
