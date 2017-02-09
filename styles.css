@@ -59,24 +59,57 @@ li:hover {
 
 /*footer*/
 .footer ul{
-	
 	color: #000000;
 	display:inline-block;
 	list-style-type: none;
 	text-align: center;
 	width:100%;
-
 }
 
 .footer li{
-	
 	margin: auto;
 	padding: 10px 20px;
 	border-right: 2px, solid, black;
 	border-left: 2px solid black; 
-	 
-	
 }
 
 .copy{
 	font-size: 10px;
+}
+
+.contactus{
+		margin: auto;
+		text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
