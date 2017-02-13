@@ -111,16 +111,29 @@ a:visited {
 #logo {
 	font-family:Barrio;
 	color:red;
-	font-weight:bold
+	font-weight:bold;
+	padding-left:10px;
+	margin-top:5px;
 }
 
 #disclaimer {
 	list-style:none;
+	text-align:center;
+}
+
+#disclaimer li {
+	display: inline;
+	border-right: 2px black solid;
+	border-left: 2px black solid;
 }
 
 #disclaimer li a {
+	color:brown;
 	list-style:none;
 	text-decoration:none;
+	font-size:16px;
+	text-align:center;
+	padding: 2px 30px;
 }
 
 /*
