@@ -56,31 +56,12 @@ a:visited {
 /*main body*/
 
 .main {
-	width: 100%;
-
-}
-.about {
-	padding:100px 0;
-	border-top: 1px solid black;
-	border-bottom: 1px solid black;
-}
-
-.recipes{
-	padding: 100px 0;
-	border-top: 1px solid black;
-	border-bottom: 1px solid black;
-}
-
-.contact {
-	padding: 100px 0;
-	border-top: 1px solid black;
-	border-bottom: 1px solid black;
+	width:100%;
 }
 
 .main:hover {
 	opacity: .8px;
 }
-
 
 /*footer*/
 
@@ -125,6 +106,35 @@ a:visited {
 	font-size: 10px;
 */
 
+/* Link to About page */
+.about {
+	display:block;
+	padding-top:100px;
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;
+	font-weight:bold;
+	font-size:300%;
+	width:100%;
+}
+
+.about a {
+	text-decoration:none;
+}
+
+.about_us {
+	z-index:-1;
+	background-color:white;
+	border-top:1px solid black;
+}
+
+.text_about h2 {
+	text-align:center;
+	height:300;
+	margin:auto;
+	color:black;
+	top:60px;
+}
+
 /* Link to Recipes */
 .recipes {
 	position:relative;
@@ -133,17 +143,24 @@ a:visited {
 	padding-bottom:0;
 }
 
+.recipes{
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;
+}
+
 /* Following varies somewhat in different browsers */
-.text {
+.text_recipes {
 	color:white;
 	font-weight:bold;
 	font-size:300%;
 }
 
-.text h2 {
+.text_recipes h2 {
 	position:absolute;
-	left:43%;
-	top:33px;
+	left:42%;
+	top:95px;
+	margin:auto;
+	text-align:center;
 }
 
 #recipes_banner {
@@ -155,4 +172,42 @@ a:visited {
 #recipes_banner img {
 	width:100%;
 	height:300;
+}
+
+/* Link to Contacts */
+.contact {
+	display:block;
+	padding-top:0;
+	padding-bottom:0;
+	width:100%;
+	background-color:white;
+	text-align:center;
+}
+
+.contact {
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;
+}
+
+.text_contact {
+	color:black;
+	font-weight:bold;
+	font-size:300%;
+	text-align:center;
+}
+
+.text_contact h2 {
+	position:absolute;
+	left:38.5%;
+	bottom:-25%;
+	margin:auto;
+	text-align:center;
+}
+
+.contact_us {
+	z-index:-1;
+}
+
+#contact_us {
+	width:20%;
 }
