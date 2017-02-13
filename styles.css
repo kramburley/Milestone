@@ -128,20 +128,22 @@ a:visited {
 /* Link to Recipes */
 .recipes {
 	position:relative;
-	display:flex;
+	display:block;
 	padding-top:0;
 	padding-bottom:0;
 }
 
-/* Following works fine in FireFox, but no other browser. Not sure why */
-.text h2 {
-	margin-left:47%;
-	margin-top: 40%;
-	position:absolute;
+/* Following varies somewhat in different browsers */
+.text {
 	color:white;
 	font-weight:bold;
 	font-size:300%;
-	vertical-align:middle;
+}
+
+.text h2 {
+	position:absolute;
+	left:43%;
+	top:33px;
 }
 
 #recipes_banner {
