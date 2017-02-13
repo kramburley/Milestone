@@ -1,22 +1,57 @@
+@import url(https://fonts.googleapis.com/css?family=Barrio);
+
+#logo h2 {
+	font-family: Barrio;
+	color:red;
+	font-weight:bold;
+	position:absolute;
+	margin-top:0;
+	padding-left:10px;
+}
+
 * {
 	border: 1px black dotted;
 }
+
+/* global attributes */
 html, body{
 	width: 100%;
 	height: 100%;
 	padding: 0;
-	marging: 0;
+	margin: 0;
 	background-color: #FFE9E8;
+	font-size: 100%;
+	font-family: "Futura STD";
 }
 
+<<<<<<< HEAD
 /*navigation bar*/
+=======
+a:link {
+	text-decoration: none;
+    color: gray;
+}
+
+a:visited {
+    color: gray;
+}
+
+a:active {
+    color: gray;
+}
+
+/* start - navigation bar */
+>>>>>>> 79abf6df213f414519487fec561679e7d92256ff
 .banner{
 	background-color:lightgray;
-	height: 7%;
+	height: 50px;
 	position: fixed;
 	width:100%;
 	top: 0;
+	float: top;
+	
 }
+
 .navigation ul{
 	list-style-type: none;
 	text-align: center;
@@ -32,7 +67,6 @@ html, body{
     color: brown;
     text-align: center;
     padding: 2px 30px;
-    text-decoration: none;
 	font-size: 16px;
 }
 
@@ -40,7 +74,9 @@ li:hover {
 	background-color: pink;
 	border-radius: 10px;
 }
+/* end - navigation bar */
 
+<<<<<<< HEAD
 .active{
 	background-color: pink;
 	border-radius: 10px;
@@ -73,12 +109,16 @@ li:hover {
 }
 
 /*footer*/
+=======
+/* start - footer */
+>>>>>>> 79abf6df213f414519487fec561679e7d92256ff
 .mainfooter{
 	background-color:lightgray;
 	width:100%;
 	height: 5%;
 	position: fixed;
 	bottom: 0;
+	float: bottom;
 }
 .footer{
 	font-size: 11px;
@@ -95,7 +135,7 @@ li:hover {
 .footerinner li{
 	display: inline;
 	padding: 2px 30px;
-	border-right: 2px, solid, black;
+	border-right: 2px solid black;
 	border-left: 2px solid black; 
 }
 
@@ -107,7 +147,30 @@ li:hover {
 .copy{
 	font-size: 10px;
 }
+/* end - footer */
 
+/* start - homepage */
+#main{
+	width: 100%;
+	padding-top: 55px;
+	min-width:320px;
+	margin: auto;
+}
+
+.aboutus {
+	padding: 0;
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;
+	background-image: url(images/banner1.jpg);
+	background-color: #000000;
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	width:100%;
+	height:187px;	
+}
+
+<<<<<<< HEAD
  /*Link to Recipes */
 .recipes {
 	position:relative;
@@ -138,9 +201,95 @@ li:hover {
 #recipes_banner img {
 	width:100%;
 	height:300;
+=======
+.recipes{
+	padding: 0;
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;
+	background-image: url(images/banner2.jpg);
+	background-color: #000000;
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	width:100%;
+	height:188px;
+
+>>>>>>> 79abf6df213f414519487fec561679e7d92256ff
 }
 
-/* Contact Us Page*/
+.contactus {
+	padding: 0;
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;
+	background-image: url(images/banner3.jpg);
+	background-color: #000000;
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	width:100%;
+	height: 187px;
+
+}
+
+.content {
+	text-align: center;
+	display: block;
+	height: 100%;
+	width: 100%;
+	text-decoration: none;
+}
+
+.aboutus:hover {
+	background-image: url(images/banner3.jpg);
+	background-color: #000000;
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	-webkit-transition: all 1s ease-in;
+	-moz-transition: all 1s ease-in;
+	-ms-transition: all 1s ease-in;
+	-o-transition: all 1s ease-in;
+	transition: all 1s ease-in;
+}
+
+.recipes:hover {
+	background-image: url(images/banner1.jpg);
+	background-color: #000000;
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	-webkit-transition: all 1s ease-in;
+	-moz-transition: all 1s ease-in;
+	-ms-transition: all 1s ease-in;
+	-o-transition: all 1s ease-in;
+	transition: all 1s ease-in;
+}
+
+.contactus:hover {
+	background-image: url(images/banner2.jpg);
+	background-color: #000000;
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	-webkit-transition: all 1s ease-in;
+	-moz-transition: all 1s ease-in;
+	-ms-transition: all 1s ease-in;
+	-o-transition: all 1s ease-in;
+	transition: all 1s ease-in;
+}
+
+/* display new text when hovering image */
+#hover-content {
+    display:none;
+}
+
+.content:hover #hover-content {
+	display: block;
+	color: red;
+}
+/* end - homepage */
+
+/* start - Contact Us Page*/
 .mainbox{
 	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
 	display: block;
@@ -240,7 +389,32 @@ input[type="submit"]{
 	color: brown;
 	opacity:.8px;
 }
+/* end - Contact Us Page */
 
+/* start - recipes page */
+/* 
+-- make images responsive 
+-- center align whole body
+--
+*/
+
+.recipemain {
+    margin: auto;
+    width: 57%;
+}
+.pudding {
+	background-image: url(images/pudding.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	float: left;
+	width: 250px;
+	height: 250px;
+	border: 2px solid black;
+	margin: auto;
+}
+
+<<<<<<< HEAD
 /*About Us page*/
 .mainAbout{
 	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
@@ -267,21 +441,65 @@ input[type="submit"]{
 .textAbout{
 	
 
+=======
+.brownies {
+	background-image: url(images/brownies.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	float: left;
+	width: 250px;
+	height: 250px;
+	border: 2px solid black;
+	margin: auto;
+}
+>>>>>>> 79abf6df213f414519487fec561679e7d92256ff
 
+.muffin {
+	background-image: url(images/muffin.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	float: left;
+	width: 250px;
+	height: 250px;
+	border: 2px solid black;
+	margin: auto;
+}
 
+.cheesecake {
+	background-image: url(images/cheesecake.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	float: left;
+	width: 250px;
+	height: 250px;
+	border: 2px solid black;
+	margin: auto;
+}
 
+.cookies {
+	background-image: url(images/cookies.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	float: left;
+	width: 250px;
+	height: 250px;
+	border: 2px solid black;
+	margin: auto;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.addmore {
+	background-image: url(images/addmore.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	float: left;
+	width: 250px;
+	height: 250px;
+	border: 2px solid black;
+	margin: 0;
+}
+/* end - recipe page */
