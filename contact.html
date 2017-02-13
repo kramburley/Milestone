@@ -2,38 +2,63 @@
 <html lang="en">
 <head>
 	<meta charset="utf-8">
-	<link rel="stylesheet" href="styles.css">
+	<link rel="stylesheet"  type="text/css" href="base.css">
 	<title>Contact Us</title>
 </head>
 
 <body>
 
 	<!-- navigation bar -->
-	<div class="navigation">
-		<ul>
-			<li><a class = "active" href = "#">HOME</a></li>
-			<li><a href = "#">ABOUT</a></li>
-			<li><a href = "#">RECIPES</a></li>
-			<li><a href = "#">CONTACT</a></li>
-		</ul>
+	<div class="wholepage">
+		<div class = "banner">
+			<div class="navigation">
+				<div class="logo">
+					<div class = "navigationbar">
+						<ul>
+							<li><a class = "active" href = "#">HOME</a></li>
+							<li><a href = "#">ABOUT</a></li>
+							<li><a href = "#">RECIPES</a></li>
+							<li><a href = "#">CONTACT</a></li>
+						</ul>
+	
+					</div>
+				</div>
+			</div>
+		</div>
 	</div>
 	
-	<div class= "contactus">
-		<h1> Contact Us </h1>
-	</div>	
-	
 	<!-- main content -->
+	<div class="mainbox">
+		<div class="box1">
+			<h1>Contact Us</h1>
+		</div>
+		<div class="box2">
+			<form class="form" action="email.php" method="post">
+				<input type="hidden" name="recipients" id="recipient" value="corinne.kakiuchi@gmail.com">
+				<input type="hidden" name="subject" id="subject" value="Message from JUSTDESSERTS webpage">
+				<input type="hidden" name="thanks_url" id="redirection" value="thanks.html">
+				<input type="text" name="Name" value size="40" placeholder="Name*" required>
+				<input type="email" name="Email" id="CustEmail" value size="40" aria-required="true" aria-invalid="false" placeholder="Email*" required>
+				<input type="text" name="Subject" value size="40" placeholder="Subject" required>
+				<textarea name="Message" cols="40" rows="9" placeholder=" Message*" required></textarea>
+				<input type="submit" value="SEND MESSAGE">
+			</form>	
+		</div>
+	</div>
 	
-	<!-- footer -->
-	  
-	  <div class="footer">
-			<ul>
-				<li>JUSTDESSERTS<span class="copy">&copy;</span></li>
-				<li><a href='#'>SITEMAP</a></li>
-				<li><a href="justdesserts@gmail.com" target="_top">EMAIL</a></li>
-				<li><a href="tel: 888-555-555">TELEPHONE</a></li>
-			</ul>
-	  </div>	
+	<!-- Footer --> 
+	<div class = "mainfooter">
+	    <div class="footer">
+			<div class="footerinner">
+				<ul>
+					<li>JUSTDESSERTS<span class="copy">&copy;</span></li>
+					<li><a href='#'>SITEMAP</a></li>
+					<li><a href="justdesserts@gmail.com" target="_top">EMAIL</a></li>
+					<li><a href="tel: 888-555-555">TELEPHONE</a></li>
+				</ul>
+			</div>
+	    </div>	  
+	</div>
 
 </body>
 
