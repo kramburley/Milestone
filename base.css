@@ -1,3 +1,13 @@
+@import url(https://fonts.googleapis.com/css?family=Barrio);
+
+#logo h2 {
+	font-family: Barrio;
+	color:red;
+	font-weight:bold;
+	position:absolute;
+	margin-top:0;
+}
+
 * {
 	/*border: 1px black dotted*/
 }
@@ -372,7 +382,7 @@ input[type="submit"]{
 }
 
 .addmore {
-	background-image: url(images/addmore.jpg);
+	background-image: url(images/addmore.png);
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center;
@@ -380,6 +390,6 @@ input[type="submit"]{
 	width: 250px;
 	height: 250px;
 	border: 2px solid black;
-	margin: auto;
+	margin: 0;
 }
 /* end - recipe page */
