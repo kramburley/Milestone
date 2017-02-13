@@ -144,9 +144,16 @@ li:hover {
 	text-align: center;
 	text-decoration: none;
 }
+
+#logo_footer {
+	font-family: Barrio;
+	color:red;
+}
+
 .copy{
 	font-size: 10px;
 }
+
 /* end - footer */
 
 /* start - homepage */
