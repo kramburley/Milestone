@@ -120,7 +120,37 @@ a:visited {
     text-decoration: none;
 }
 
+/*
 .copy{
 	font-size: 10px;
 */
-	
+
+/* Link to Recipes */
+.recipes {
+	position:relative;
+	display:flex;
+	padding-top:0;
+	padding-bottom:0;
+}
+
+/* Following works fine in FireFox, but no other browser. Not sure why */
+.text h2 {
+	margin-left:47%;
+	margin-top: 40%;
+	position:absolute;
+	color:white;
+	font-weight:bold;
+	font-size:300%;
+	vertical-align:middle;
+}
+
+#recipes_banner {
+	float:left;
+	width:20%;
+	z-index:-1;
+}
+
+#recipes_banner img {
+	width:100%;
+	height:300;
+}
