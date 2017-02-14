@@ -1,5 +1,16 @@
+@import url(https://fonts.googleapis.com/css?family=Barrio);
+
+#logo h2 {
+	font-family: Barrio;
+	color:red;
+	font-weight:bold;
+	position:absolute;
+	margin-top:0;
+	padding-left:10px;
+}
+
 * {
-	/*border: 1px black dotted*/
+	border: 1px black dotted;
 }
 
 /* global attributes */
@@ -13,6 +24,9 @@ html, body{
 	font-family: "Futura STD";
 }
 
+<<<<<<< HEAD
+/*navigation bar*/
+=======
 a:link {
 	text-decoration: none;
     color: gray;
@@ -27,6 +41,7 @@ a:active {
 }
 
 /* start - navigation bar */
+>>>>>>> 79abf6df213f414519487fec561679e7d92256ff
 .banner{
 	background-color:lightgray;
 	height: 50px;
@@ -61,7 +76,42 @@ li:hover {
 }
 /* end - navigation bar */
 
+<<<<<<< HEAD
+.active{
+	background-color: pink;
+	border-radius: 10px;
+}
+
+/*main body*/
+.main{
+	width: 100%;
+}
+.about {
+	padding: 100px 0;
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;
+}
+
+.recipes{
+	padding: 100px 0;
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;
+}
+
+.contact {
+	padding: 100px 0;
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;
+}
+
+.main:hover {
+	opacity:.8px;
+}
+
+/*footer*/
+=======
 /* start - footer */
+>>>>>>> 79abf6df213f414519487fec561679e7d92256ff
 .mainfooter{
 	background-color:lightgray;
 	width:100%;
@@ -94,9 +144,16 @@ li:hover {
 	text-align: center;
 	text-decoration: none;
 }
+
+#logo_footer {
+	font-family: Barrio;
+	color:red;
+}
+
 .copy{
 	font-size: 10px;
 }
+
 /* end - footer */
 
 /* start - homepage */
@@ -120,6 +177,38 @@ li:hover {
 	height:187px;	
 }
 
+<<<<<<< HEAD
+ /*Link to Recipes */
+.recipes {
+	position:relative;
+	display:block;
+	padding-top:0;
+	padding-bottom:0;
+}
+
+/* Following varies somewhat in different browsers */
+.text {
+	color:white;
+	font-weight:bold;
+	font-size:300%;
+}
+
+.text h2 {
+	position:absolute;
+	left:43%;
+	top:33px;
+}
+
+#recipes_banner {
+	float:left;
+	width:20%;
+	z-index:-1;
+}
+
+#recipes_banner img {
+	width:100%;
+	height:300;
+=======
 .recipes{
 	padding: 0;
 	border-top: 1px solid black;
@@ -132,6 +221,7 @@ li:hover {
 	width:100%;
 	height:188px;
 
+>>>>>>> 79abf6df213f414519487fec561679e7d92256ff
 }
 
 .contactus {
@@ -212,7 +302,7 @@ li:hover {
 	display: block;
 	background-color:lightgray;
 	width:80%;
-	height: 55%;
+	height: 60%;
 	margin-bottom: 7%;
 	margin-top: 9%;
 	margin-left: auto;
@@ -225,10 +315,11 @@ li:hover {
 .box1{
 	text-align: center;
 }
+
 .box2{
 	background-color:#FFE9E8;
 	width: 97%;
-	height: 52%;;
+	height: 54%;;
 	margin: auto;
 	border: 5px;
 	border-style: none;
@@ -254,7 +345,7 @@ input[type="email"], input[type="text"]{
 textarea{
 	display: inline-block;
 	position: absolute;
-	top: 37%;
+	top: 44%;
 	right: 8.5%;
 	font-size: 1em;
 	background-color: white;
@@ -263,8 +354,9 @@ textarea{
 	padding: 10px;
 	margin-right: 40px;
 	float: right;
-	width: 35%;
+	width: 33%;
 }
+
 input[type="submit"]{
 	position: relative;
 	top: 120%;
@@ -278,12 +370,13 @@ input[type="submit"]{
 	padding: 10px;
 	width: 20%;
 }
+/*Thanks page*/
 .mainThanks{
 	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
 	display: block;
 	background-color:lightgray;
 	width:80%;
-	height: 55%;
+	height: 60%;
 	margin-bottom: 7%;
 	margin-top: 9%;
 	margin-left: auto;
@@ -293,6 +386,11 @@ input[type="submit"]{
 	border-radius: 10px;
 	text-align: center;
 }
+
+.thanks{
+	margin: 7%;
+}
+
 #FAQ:hover{
 	text-decoration: none;
 	color: brown;
@@ -323,6 +421,34 @@ input[type="submit"]{
 	margin: auto;
 }
 
+<<<<<<< HEAD
+/*About Us page*/
+.mainAbout{
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	display: block;
+	background-color:lightgray;
+	width:80%;
+	height: 60%;
+	margin-bottom: 7%;
+	margin-top: 9%;
+	margin-left: auto;
+	margin-right: auto;
+	border: 7px;
+	border-style: groove;
+	border-radius: 10px;
+	text-align: center;
+}
+.about{
+	border: none;
+}
+
+.titleAbout{
+	
+}
+.textAbout{
+	
+
+=======
 .brownies {
 	background-image: url(images/brownies.jpg);
 	background-size: cover;
@@ -334,6 +460,7 @@ input[type="submit"]{
 	border: 2px solid black;
 	margin: auto;
 }
+>>>>>>> 79abf6df213f414519487fec561679e7d92256ff
 
 .muffin {
 	background-image: url(images/muffin.jpg);
@@ -372,7 +499,7 @@ input[type="submit"]{
 }
 
 .addmore {
-	background-image: url(images/addmore.jpg);
+	background-image: url(images/addmore.png);
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center;
@@ -380,6 +507,6 @@ input[type="submit"]{
 	width: 250px;
 	height: 250px;
 	border: 2px solid black;
-	margin: auto;
+	margin: 0;
 }
 /* end - recipe page */
