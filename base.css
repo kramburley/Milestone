@@ -1,17 +1,18 @@
-@import url(https://fonts.googleapis.com/css?family=Barrio);
+/* if adding additional elements, put at the very bottom with comments for easier troubleshooting -mark <3
 
-#logo h2 {
-	font-family: Barrio;
-	color:red;
-	font-weight:bold;
-	position:absolute;
-	margin-top:0;
-	padding-left:10px;
-}
+	don't write elements without reference into the .html files.
+	
+	each .html file is separated by comments. be sure to group all the codes together.
+*/
 
+/*
 * {
 	border: 1px black dotted;
 }
+*/
+
+
+@import url(https://fonts.googleapis.com/css?family=Barrio);
 
 /* global attributes */
 html, body{
@@ -24,9 +25,7 @@ html, body{
 	font-family: "Futura STD";
 }
 
-<<<<<<< HEAD
 /*navigation bar*/
-=======
 a:link {
 	text-decoration: none;
     color: gray;
@@ -41,17 +40,24 @@ a:active {
 }
 
 /* start - navigation bar */
->>>>>>> 79abf6df213f414519487fec561679e7d92256ff
 .banner{
 	background-color:lightgray;
 	height: 50px;
 	position: fixed;
 	width:100%;
 	top: 0;
-	float: top;
-	
+	float: top;	
 }
 
+#logo h2 {
+	font-family: Barrio;
+	color:red;
+	font-weight:bold;
+	position:absolute;
+	margin-top:0;
+	padding-left:10px;
+}
+	
 .navigation ul{
 	list-style-type: none;
 	text-align: center;
@@ -76,8 +82,7 @@ li:hover {
 }
 /* end - navigation bar */
 
-<<<<<<< HEAD
-.active{
+.active {
 	background-color: pink;
 	border-radius: 10px;
 }
@@ -109,9 +114,7 @@ li:hover {
 }
 
 /*footer*/
-=======
 /* start - footer */
->>>>>>> 79abf6df213f414519487fec561679e7d92256ff
 .mainfooter{
 	background-color:lightgray;
 	width:100%;
@@ -153,8 +156,8 @@ li:hover {
 .copy{
 	font-size: 10px;
 }
-
 /* end - footer */
+
 
 /* start - homepage */
 #main{
@@ -186,30 +189,8 @@ li:hover {
 	padding-bottom:0;
 }
 
-/* Following varies somewhat in different browsers */
-.text {
-	color:white;
-	font-weight:bold;
-	font-size:300%;
-}
 
-.text h2 {
-	position:absolute;
-	left:43%;
-	top:33px;
-}
-
-#recipes_banner {
-	float:left;
-	width:20%;
-	z-index:-1;
-}
-
-#recipes_banner img {
-	width:100%;
-	height:300;
-=======
-.recipes{
+.recipes {
 	padding: 0;
 	border-top: 1px solid black;
 	border-bottom: 1px solid black;
@@ -220,8 +201,6 @@ li:hover {
 	background-repeat: no-repeat;
 	width:100%;
 	height:188px;
-
->>>>>>> 79abf6df213f414519487fec561679e7d92256ff
 }
 
 .contactus {
@@ -370,6 +349,7 @@ input[type="submit"]{
 	padding: 10px;
 	width: 20%;
 }
+
 /*Thanks page*/
 .mainThanks{
 	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
@@ -398,6 +378,7 @@ input[type="submit"]{
 }
 /* end - Contact Us Page */
 
+
 /* start - recipes page */
 /* 
 -- make images responsive 
@@ -421,7 +402,7 @@ input[type="submit"]{
 	margin: auto;
 }
 
-<<<<<<< HEAD
+
 /*About Us page*/
 .mainAbout{
 	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
@@ -438,6 +419,7 @@ input[type="submit"]{
 	border-radius: 10px;
 	text-align: center;
 }
+
 .about{
 	border: none;
 }
@@ -445,10 +427,11 @@ input[type="submit"]{
 .titleAbout{
 	
 }
-.textAbout{
-	
 
-=======
+.textAbout{
+
+}	
+
 .brownies {
 	background-image: url(images/brownies.jpg);
 	background-size: cover;
@@ -460,7 +443,6 @@ input[type="submit"]{
 	border: 2px solid black;
 	margin: auto;
 }
->>>>>>> 79abf6df213f414519487fec561679e7d92256ff
 
 .muffin {
 	background-image: url(images/muffin.jpg);
@@ -509,4 +491,6 @@ input[type="submit"]{
 	border: 2px solid black;
 	margin: 0;
 }
+
 /* end - recipe page */
+
