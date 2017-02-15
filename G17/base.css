@@ -25,20 +25,20 @@ html, body{
 	font-family: "Futura STD";
 }
 
-/*navigation bar*/
 a:link {
 	text-decoration: none;
-    color: gray;
+   color: gray;
 }
 
 a:visited {
-    color: gray;
+   color: gray;
 }
 
 a:active {
-    color: gray;
+   color: gray;
 }
 
+/*navigation bar*/
 /* start - navigation bar */
 .banner{
 	background-color:lightgray;
@@ -70,9 +70,9 @@ a:active {
 }
 
 .navigation a {
-    color: brown;
-    text-align: center;
-    padding: 2px 30px;
+   color: brown;
+   text-align: center;
+   padding: 2px 30px;
 	font-size: 16px;
 }
 
