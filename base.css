@@ -9,10 +9,6 @@
 	padding-left:10px;
 }
 
-* {
-	border: 1px black dotted;
-}
-
 /* global attributes */
 html, body{
 	width: 100%;
@@ -24,9 +20,9 @@ html, body{
 	font-family: "Futura STD";
 }
 
-<<<<<<< HEAD
+
 /*navigation bar*/
-=======
+
 a:link {
 	text-decoration: none;
     color: gray;
@@ -41,7 +37,7 @@ a:active {
 }
 
 /* start - navigation bar */
->>>>>>> 79abf6df213f414519487fec561679e7d92256ff
+
 .banner{
 	background-color:lightgray;
 	height: 50px;
@@ -76,7 +72,7 @@ li:hover {
 }
 /* end - navigation bar */
 
-<<<<<<< HEAD
+
 .active{
 	background-color: pink;
 	border-radius: 10px;
@@ -109,9 +105,9 @@ li:hover {
 }
 
 /*footer*/
-=======
+
 /* start - footer */
->>>>>>> 79abf6df213f414519487fec561679e7d92256ff
+
 .mainfooter{
 	background-color:lightgray;
 	width:100%;
@@ -170,7 +166,7 @@ li:hover {
 	height:187px;	
 }
 
-<<<<<<< HEAD
+
  /*Link to Recipes */
 .recipes {
 	position:relative;
@@ -201,7 +197,8 @@ li:hover {
 #recipes_banner img {
 	width:100%;
 	height:300;
-=======
+}
+
 .recipes{
 	padding: 0;
 	border-top: 1px solid black;
@@ -214,7 +211,7 @@ li:hover {
 	width:100%;
 	height:188px;
 
->>>>>>> 79abf6df213f414519487fec561679e7d92256ff
+
 }
 
 .contactus {
@@ -312,7 +309,7 @@ li:hover {
 .box2{
 	background-color:#FFE9E8;
 	width: 97%;
-	height: 54%;;
+	height: 50%;
 	margin: auto;
 	border: 5px;
 	border-style: none;
@@ -338,8 +335,8 @@ input[type="email"], input[type="text"]{
 textarea{
 	display: inline-block;
 	position: absolute;
-	top: 44%;
-	right: 8.5%;
+	top: 37%;
+	right: 9%;
 	font-size: 1em;
 	background-color: white;
 	border: none;
@@ -363,7 +360,9 @@ input[type="submit"]{
 	padding: 10px;
 	width: 20%;
 }
-/*Thanks page*/
+/* end - Contact Us Page */
+
+/* start - Thanks Page*/
 .mainThanks{
 	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
 	display: block;
@@ -389,7 +388,36 @@ input[type="submit"]{
 	color: brown;
 	opacity:.8px;
 }
-/* end - Contact Us Page */
+/* end - Thanks Page */
+
+/* start - About Us Page*/
+
+.mainAbout{
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	display: block;
+	background-color:lightgray;
+	width:80%;
+	height: 60%;
+	margin-bottom: 7%;
+	margin-top: 9%;
+	margin-left: auto;
+	margin-right: auto;
+	border: 7px;
+	border-style: groove;
+	border-radius: 10px;
+	text-align: center;
+}
+.about{
+	border: none;
+}
+
+.titleAbout{
+	
+}
+.textAbout{
+}
+
+/* end -About Us Page */
 
 /* start - recipes page */
 /* 
@@ -414,34 +442,6 @@ input[type="submit"]{
 	margin: auto;
 }
 
-<<<<<<< HEAD
-/*About Us page*/
-.mainAbout{
-	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
-	display: block;
-	background-color:lightgray;
-	width:80%;
-	height: 60%;
-	margin-bottom: 7%;
-	margin-top: 9%;
-	margin-left: auto;
-	margin-right: auto;
-	border: 7px;
-	border-style: groove;
-	border-radius: 10px;
-	text-align: center;
-}
-.about{
-	border: none;
-}
-
-.titleAbout{
-	
-}
-.textAbout{
-	
-
-=======
 .brownies {
 	background-image: url(images/brownies.jpg);
 	background-size: cover;
@@ -453,7 +453,7 @@ input[type="submit"]{
 	border: 2px solid black;
 	margin: auto;
 }
->>>>>>> 79abf6df213f414519487fec561679e7d92256ff
+
 
 .muffin {
 	background-image: url(images/muffin.jpg);
