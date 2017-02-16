@@ -212,7 +212,7 @@ li:hover {
 
 /* about us banner hover effect */
 .aboutus:hover {
-	background-image: url(images/banner_3.jpg);
+	background-image: url(images/banner_2.jpg);
 	background-color: #000000;
 	background-size: cover;
 	background-position: center;
@@ -240,7 +240,7 @@ li:hover {
 
 /* contact us us banner hover effect */
 .contactus:hover {
-	background-image: url(images/banner_2.jpg);
+	background-image: url(images/banner_3.jpg);
 	background-color: #000000;
 	background-size: cover;
 	background-position: center;
