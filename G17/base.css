@@ -474,20 +474,27 @@ input[type="submit"]{
 	border: 2px solid black;
 	margin: 0;
 }
+/* end - recipe page */
 
+/* Sitemap page start*/
+/*Sitemap title*/
 .title {
 	margin-top:70px;
 	text-align:center;
 }
+
+/*Sitemap links*/
 .map {
 	margin-top:50px;
 	margin-left:500px;
 }
 
+/*Sitemap image*/
 .image {
 	float:left;
 }
 
+/*Sitemap recipes lists*/
 .lists {
 	float:right;
 	top:0;
@@ -497,4 +504,4 @@ input[type="submit"]{
 	padding-bottom:10px;
 }
 
-/* end - recipe page */
+/* end - Sitemap page */
