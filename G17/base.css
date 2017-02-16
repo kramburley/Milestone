@@ -15,7 +15,7 @@ html, body{
 	margin: 0;
 	background-color: #FFFFFF;
 	font-size: 100%;
-	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", "sans-serif";
 }
 
 a:link {
@@ -212,7 +212,7 @@ li:hover {
 
 /* about us banner hover effect */
 .aboutus:hover {
-	background-image: url(images/banner3.jpg);
+	background-image: url(images/banner_3.jpg);
 	background-color: #000000;
 	background-size: cover;
 	background-position: center;
@@ -222,12 +222,11 @@ li:hover {
 	-ms-transition: all 1s ease-in;
 	-o-transition: all 1s ease-in;
 	transition: all 1s ease-in;
-	opacity: 0.4;
 }
 
 /* recipes banner hover effect */
 .recipes:hover {
-	background-image: url(images/banner1.jpg);
+	background-image: url(images/banner_1.jpg);
 	background-color: #000000;
 	background-size: cover;
 	background-position: center;
@@ -241,7 +240,7 @@ li:hover {
 
 /* contact us us banner hover effect */
 .contactus:hover {
-	background-image: url(images/banner2.jpg);
+	background-image: url(images/banner_2.jpg);
 	background-color: #000000;
 	background-size: cover;
 	background-position: center;
@@ -270,16 +269,13 @@ li:hover {
 /* start - Contact Us Page*/
 .mainbox {
 	display: block;
-	background-color:lightgray;
+	background-color: #F8E8F7;
 	width:80%;
 	height: 90%;
-	margin-bottom: 7%;
-	margin-top: 9%;
-	margin-left: auto;
-	margin-right: auto;
-	border: 7px;
-	border-style: groove;
+	margin: auto;
+	border: 7px solid lightgray;
 	border-radius: 10px;
+	padding-bottom: 20px;
 }
 
 .box1 {
@@ -287,7 +283,7 @@ li:hover {
 }
 
 .box2{
-	background-color:#FFE9E8;
+	background-color:#F8E8F7;
 	width: 97%;
 	height: 80%;
 	margin: auto;
@@ -298,11 +294,14 @@ li:hover {
 
 .form{
 	height: 90%;
+	width: 100%;
+	margin: auto;
 }
 
+/* name, email, subject box*/
 input[type="email"], input[type="text"]{
 	display: inline-block;
-	width: 90%;
+	width: 95%;
 	background-color: white;
 	border: none;
 	padding: 10px;
@@ -312,9 +311,10 @@ input[type="email"], input[type="text"]{
 	font-family: inherit;
 }
 
+/* message box */
 textarea{
 	display: inline-block;
-	width: 90%;
+	width: 95%;
 	background-color: white;
 	border: none;
 	padding: 10px;
@@ -324,6 +324,7 @@ textarea{
 	resize: none;
 }
 
+/* submit button */
 input[type="submit"]{
 	background: none;
 	color: brown;
