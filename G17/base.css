@@ -474,4 +474,27 @@ input[type="submit"]{
 	border: 2px solid black;
 	margin: 0;
 }
+
+.title {
+	margin-top:70px;
+	text-align:center;
+}
+.map {
+	margin-top:50px;
+	margin-left:500px;
+}
+
+.image {
+	float:left;
+}
+
+.lists {
+	float:right;
+	top:0;
+	width:70%;
+	padding-top:10px;
+	padding-left:10px;
+	padding-bottom:10px;
+}
+
 /* end - recipe page */
