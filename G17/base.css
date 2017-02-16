@@ -3,6 +3,14 @@
 	don't write elements without reference into the .html files.
 	
 	each .html file is separated by comments. be sure to group all the codes together.
+	
+	HEX CODES:
+	#F80229 - red
+	#F8E8F7 - pink
+	#808080 - gray
+	#E85C00 - brown
+	#ADD8E6 - lightblue
+	#A52A2A - another brown
 */
 
 @import url(https://fonts.googleapis.com/css?family=Barrio);
@@ -55,7 +63,7 @@ a:active {
 
 #logo h2 {
 	font-family: Barrio;
-	color:red;
+	color: #F80229;
 	font-weight:bold;
 	position:absolute;
 	margin-top:0;
@@ -69,12 +77,12 @@ a:active {
 
 .navigation li {
 	display: inline;
-	border-right: 2px black solid;
-	border-left: 2px black solid;
+	border-right: 2px #000000 solid;
+	border-left: 2px #000000 solid;
 }
 
 .navigation a {
-   color: brown;
+   color: #A52A2A ;
    text-align: center;
    padding: 2px 30px;
 	font-size: 16px;
@@ -111,12 +119,12 @@ a:active {
 .footerinner li{
 	display: inline;
 	padding: 2px 30px;
-	border-right: 2px solid black;
-	border-left: 2px solid black; 
+	border-right: 2px solid #000000;
+	border-left: 2px solid #000000; 
 }
 
 .footerinner a{
-	color: brown;
+	color: #A52A2A ;
 	text-align: center;
 	text-decoration: none;
 }
@@ -141,27 +149,27 @@ a:active {
 
 .about {
 	padding: 100px 0;
-	border-top: 1px solid black;
-	border-bottom: 1px solid black;
+	border-top: 1px solid #000000;
+	border-bottom: 1px solid #000000;
 }
 
 .recipes{
 	padding: 100px 0;
-	border-top: 1px solid black;
-	border-bottom: 1px solid black;
+	border-top: 1px solid #000000;
+	border-bottom: 1px solid #000000;
 }
 
 .contact {
 	padding: 100px 0;
-	border-top: 1px solid black;
-	border-bottom: 1px solid black;
+	border-top: 1px solid #000000;
+	border-bottom: 1px solid #000000;
 }
 
 /* about us banner */
 .aboutus {
 	padding: 0;
-	border-top: 1px solid black;
-	border-bottom: 1px solid black;
+	border-top: 1px solid #000000;
+	border-bottom: 1px solid #000000;
 	background-image: url(images/banner1.jpg);
 	background-color: #000000;
 	background-size: cover;
@@ -174,8 +182,8 @@ a:active {
 /* recipes banner */
 .recipes{
 	padding: 0;
-	border-top: 1px solid black;
-	border-bottom: 1px solid black;
+	border-top: 1px solid #000000;
+	border-bottom: 1px solid #000000;
 	background-image: url(images/banner2.jpg);
 	background-color: #000000;
 	background-size: cover;
@@ -188,8 +196,8 @@ a:active {
 /* contact us banner */
 .contactus {
 	padding: 0;
-	border-top: 1px solid black;
-	border-bottom: 1px solid black;
+	border-top: 1px solid #000000;
+	border-bottom: 1px solid #000000;
 	background-image: url(images/banner3.jpg);
 	background-color: #000000;
 	background-size: cover;
@@ -258,7 +266,7 @@ a:active {
 /* display new text when hovering image */
 .content:hover .hover-content {
 	display: block;
-	color: red;
+	color: #ADD8E6 ;
 }
 /* end - homepage */
 
@@ -271,7 +279,7 @@ a:active {
 	width:80%;
 	height: 90%;
 	margin: auto;
-	border: 7px solid lightgray;
+	border: 7px solid #ADD8E6 ;
 	border-radius: 10px;
 	padding-bottom: 20px;
 }
@@ -363,10 +371,11 @@ input[type="submit"]{
 /* start - About Us Page*/
 .mainAbout{
 	display: block;
-	background-color: lightgray;
+	background-color: #F8E8F7;
 	width:80%;
+	height: 90%;
 	margin: auto;
-	border: 7px solid lightgray;
+	border: 7px solid #ADD8E6 ;
 	border-radius: 10px;
 	text-align: center;
 }
@@ -399,7 +408,7 @@ input[type="submit"]{
 	float: left;
 	width: 250px;
 	height: 250px;
-	border: 2px solid black;
+	border: 2px solid #000000;
 	margin: auto;
 }
 
@@ -411,7 +420,7 @@ input[type="submit"]{
 	float: left;
 	width: 250px;
 	height: 250px;
-	border: 2px solid black;
+	border: 2px solid #000000;
 	margin: auto;
 }
 
@@ -423,7 +432,7 @@ input[type="submit"]{
 	float: left;
 	width: 250px;
 	height: 250px;
-	border: 2px solid black;
+	border: 2px solid #000000;
 	margin: auto;
 }
 
@@ -435,7 +444,7 @@ input[type="submit"]{
 	float: left;
 	width: 250px;
 	height: 250px;
-	border: 2px solid black;
+	border: 2px solid #000000;
 	margin: auto;
 }
 
@@ -447,7 +456,7 @@ input[type="submit"]{
 	float: left;
 	width: 250px;
 	height: 250px;
-	border: 2px solid black;
+	border: 2px solid #000000;
 	margin: auto;
 }
 
@@ -459,7 +468,7 @@ input[type="submit"]{
 	float: left;
 	width: 250px;
 	height: 250px;
-	border: 2px solid black;
+	border: 2px solid #000000;
 	margin: 0;
 }
 /* end - recipe page */
