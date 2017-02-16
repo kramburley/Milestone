@@ -505,3 +505,92 @@ input[type="submit"]{
 }
 
 /* end - Sitemap page */
+
+/* STAR OF PUDDING PAGE */
+
+/* Pudding Main Content */
+#main {
+	margin:auto;
+	width:80%;
+	padding-top:5%
+}
+
+.puddingmain {
+	margin:auto;
+	width:80%;
+	border:3px solid lightblue;
+	margin-bottom:2%;
+	background-color:#F8E8F7;
+}
+
+.puddingmain h2 {
+	text-align:center;
+}
+
+/* Pudding image */
+.puddingimage {
+	float:left;
+	padding-left:10%;
+}
+
+.puddingimage img {
+	border:3px solid lightblue;
+}
+
+/* Ingredient Table: Pudding */
+.puddingtable {
+	float:right;
+	padding-right:10%;
+	width:40%
+}
+
+.puddingtable table {
+	background-color:#F8E8F7;
+	border:3px solid lightblue;
+	border-collapse:collapse;
+	width:100%;
+}
+
+.puddingtable th {
+	border:3px solid lightblue;
+	background-color:lightcyan;
+}
+
+.puddingtable td {
+	border:1px solid lightblue;
+	padding-left:2%;
+}
+
+/* Pudding - the body of the text */
+.puddingbody {
+	border:3px solid lightblue;
+	display:inline-block;
+	width:80%;
+	margin-left:10%;
+	margin-top:2%;
+	margin-bottom:5%;
+	background-color:lightcyan;
+}
+
+.puddingbody h2 {
+	border:3px dashed pink;
+	text-align:center;
+	width:25%;
+	margin:auto;
+	margin-top:2%;
+	background-color:#F8E8F7;
+}
+
+/* Directions to make pudding */
+.puddingdirections {
+	margin:auto;
+	background-color:#F8E8F7;
+	width:95%;
+}
+
+.puddingdirections ol {
+	padding-top:1%;
+	padding-bottom:1%;
+	border:3px dashed lightpink;
+}
+/* END OF PUDDING PAGE */
